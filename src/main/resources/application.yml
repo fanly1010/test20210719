@@ -1,0 +1,14 @@
+spring:
+    #redis配置
+  redis:
+    database: 1
+    port:
+    host:
+    password:
+server:
+  port: 9301
+  #限流次数设置
+app:
+  access:
+    max-count: 5
+    seconds: 2
